@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectStartupApi</string>
+    <!-- Server Down Error Message -->
+    <string name="generic_server_down">The server is down please. Please try again later.</string>
+    <!-- Server Request Generic Error Message -->
+    <string name="generic_error">An error occured. Please try again later.</string>
+    <!-- No internet connection error message -->
+    <string name="no_internet">The connection is down. Please try again later.</string>
+</resources>
