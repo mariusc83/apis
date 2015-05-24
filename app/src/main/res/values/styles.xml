@@ -3,6 +3,46 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="cdTitleStyle">@style/CustomDialog.Widget.Title</item>
+        <item name="cdMessageStyle">@style/CustomDialog.Widget.Message</item>
+        <item name="cdPositiveButtonStyle">@style/CustomDialog.Widget.PositiveButton</item>
+        <item name="cdNegativeButtonStyle">@style/CustomDialog.Widget.NegativeButton</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="cdTitleStyle">@style/CustomDialog.Widget.Title</item>
+        <item name="cdMessageStyle">@style/CustomDialog.Widget.Message</item>
+        <item name="cdPositiveButtonStyle">@style/CustomDialog.Widget.PositiveButton</item>
+        <item name="cdNegativeButtonStyle">@style/CustomDialog.Widget.NegativeButton</item>
+        <item name="cdProgressBarWaitStyle">@style/CustomDialog.Widget.ProgressBar</item>
+    </style>
+
+    <style name="CustomDialog">
+
+    </style>
+
+    <style name="CustomDialog.Widget" parent="CustomDialog">
+
+    </style>
+
+    <style name="CustomDialog.Widget.Title" parent="CustomDialog.Widget">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CustomDialog.Widget.Message" parent="CustomDialog.Widget">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomDialog.Widget.PositiveButton" parent="CustomDialog.Widget">
+
+    </style>
+
+    <style name="CustomDialog.Widget.NegativeButton" parent="CustomDialog.Widget">
+
+    </style>
+
+    <style name="CustomDialog.Widget.ProgressBar" parent="CustomDialog.Widget">
+
     </style>
 
 </resources>

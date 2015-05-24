@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- TITLE VIEW -->
+
+    <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog Title"
+            style="?attr/cdTitleStyle"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+    <!-- BODY TEXT VIEW -->
+
+    <TextView
+            android:id="@android:id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/cdMessageStyle"/>
+
+
+    <LinearLayout
+            android:id="@+id/dialog_footer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!-- POSITIVE BUTTON -->
+
+        <Button
+                android:id="@android:id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/cdPositiveButtonStyle"/>
+
+        <!-- NEGATIVE BUTTON -->
+
+        <Button
+                android:id="@android:id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/cdNegativeButtonStyle"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

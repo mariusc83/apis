@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">customdialogs</string>
+    <string name="dialog_title_label">Dialog title</string>
+    <string name="dialog_message_label">Dialog message</string>
+    <string name="dialog_ok_button_label">Ok</string>
+    <string name="dialog_no_button_label">No</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomDialogs">
+        <attr name="cdTitleStyle" format="reference"/>
+        <attr name="cdMessageStyle" format="reference"/>
+        <attr name="cdPositiveButtonStyle" format="reference"/>
+        <attr name="cdNegativeButtonStyle" format="reference"/>
+        <attr name="cdProgressBarWaitStyle" format="reference"/>
+    </declare-styleable>
+</resources>
